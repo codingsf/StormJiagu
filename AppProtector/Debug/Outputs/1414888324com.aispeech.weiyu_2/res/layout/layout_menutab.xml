@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/studyMenuTabPanel" android:background="@drawable/menu_border" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageButton android:id="@id/studyMenuTab" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/menu_study" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <TextView android:background="@drawable/menu_border_right" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/testMenuTabPanel" android:background="@drawable/menu_border" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageButton android:id="@id/testMenuTab" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/menu_test" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <TextView android:background="@drawable/menu_border_right" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/searchMenuTabPanel" android:background="@drawable/menu_border" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageButton android:id="@id/searchMenuTab" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/menu_search" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+</LinearLayout>

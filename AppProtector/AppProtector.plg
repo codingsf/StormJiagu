@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AppProtector - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPFC26.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\2017516\AppProtector\AppProtectorDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPFC26.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPFC27.tmp" with contents
+[
+zlib1.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/AppProtector.pdb" /debug /machine:I386 /out:"Debug/AppProtector.exe" /pdbtype:sept 
+.\Debug\AppProtector.obj
+.\Debug\AppProtectorDlg.obj
+.\Debug\htziptools.obj
+.\Debug\ioapi.obj
+.\Debug\iowin32.obj
+.\Debug\Markup.obj
+.\Debug\mztools.obj
+.\Debug\StdAfx.obj
+.\Debug\unzip.obj
+.\Debug\zip.obj
+.\Debug\AppProtector.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPFC27.tmp"
+<h3>Output Window</h3>
+Compiling...
+AppProtectorDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/AppProtector.bsc"  .\Debug\StdAfx.sbr .\Debug\AppProtector.sbr .\Debug\AppProtectorDlg.sbr .\Debug\htziptools.sbr .\Debug\ioapi.sbr .\Debug\iowin32.sbr .\Debug\Markup.sbr .\Debug\mztools.sbr .\Debug\unzip.sbr .\Debug\zip.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AppProtector.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

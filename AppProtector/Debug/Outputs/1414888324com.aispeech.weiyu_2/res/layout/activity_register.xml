@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/title_panel" android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="22.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/title_activity_register" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_setting" android:background="@color/blue" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/btn_setting_icon" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/button_setting" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/login_bg" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+                <ImageView android:background="@drawable/login_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:contentDescription="@string/app_name" />
+                <TextView android:background="@drawable/border_bottom" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="10.0dip">
+                    <TextView android:textColor="@color/red" android:gravity="center|left" android:id="@id/loginErrorInfo" android:background="@color/pink" android:paddingLeft="35.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <TextView android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/login_user_name" />
+                <EditText android:textSize="14.0sp" android:gravity="center|left" android:id="@id/userEditInput" android:background="@drawable/login_kuang" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="@string/login_user_valid" />
+                <TextView android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:text="@string/login_pass" />
+                <EditText android:textSize="14.0sp" android:gravity="center|left" android:id="@id/passEditInput" android:background="@drawable/login_kuang" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="@string/login_pass_valid" android:inputType="textPassword" />
+                <TextView android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:text="@string/login_repass" />
+                <EditText android:textSize="14.0sp" android:gravity="center|left" android:id="@id/repassEditInput" android:background="@drawable/login_kuang" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="@string/login_repass_input" android:inputType="textPassword" />
+                <Button android:textColor="@color/white" android:gravity="center" android:id="@id/loginSubmit" android:background="@drawable/login_btn_blue" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="@string/login_submit" android:height="40.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="50.0dip" android:paddingTop="10.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/blue" android:gravity="center|top" android:id="@id/toLoginPage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/login_to_login" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/bottomBar" layout="@layout/layout_menutab" />
+</LinearLayout>

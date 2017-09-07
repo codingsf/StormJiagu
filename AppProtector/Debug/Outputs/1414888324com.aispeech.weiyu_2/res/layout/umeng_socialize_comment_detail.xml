@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/umeng_socialize_titile_bar_comment" />
+    <RelativeLayout android:gravity="center_vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <include layout="@layout/umeng_socialize_comment_content" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffbebebe" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.maps.MapView android:id="@id/umeng_socialize_map" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="0dxzG01kdrYFCrGB42Eq2Losb6vcAOainXfDYgg" />
+        <RelativeLayout android:id="@id/umeng_socialize_map_invisable" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="#ff828282" android:gravity="center_horizontal" android:id="@id/umeng_socialize_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="用户未分享地理位置" />
+            <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/umeng_socialize_location_grey" android:layout_below="@id/umeng_socialize_info" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

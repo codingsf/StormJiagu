@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parent" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/comment_list" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="评论模块" />
+    <Button android:id="@id/interface_getComments" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="获取评论列表(底层接口)" />
+    <Button android:id="@id/interface_post_comment" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="发表评论(底层接口)" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/umeng_fb_contact_header" android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/umeng_fb_back" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/umeng_fb_back_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="25.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/umeng_fb_contact_title" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/umeng_fb_save" android:layout_width="30.0dip" android:layout_height="20.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/umeng_fb_tick_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/umeng_fb_conversation_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/umeng_fb_contact_header">
+        <EditText android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center|left|top" android:id="@id/umeng_fb_contact_info" android:background="#ffeeeeee" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/umeng_fb_contact_info_hint" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="8.0sp" android:textColor="#ff333333" android:id="@id/umeng_fb_contact_update_at" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/umeng_fb_contact_update_at" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

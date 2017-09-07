@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff393d46" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/umeng_socialize_titile_bar" />
+    <ViewSwitcher android:id="@id/umeng_socialize_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/umeng_socialize_list_recently_fds_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/umeng_socialize_list_fds" android:visibility="visible" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="true" android:divider="#ff464d55" android:dividerHeight="1.0dip" android:fastScrollEnabled="false" />
+            <RelativeLayout android:id="@id/umeng_socialize_list_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/umeng_socialize_list_fds_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/umeng_socialize_list_fds" android:visibility="visible" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="true" android:divider="#ff464d55" android:dividerHeight="1.0dip" android:fastScrollEnabled="false" />
+            <RelativeLayout android:id="@id/umeng_socialize_list_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ViewSwitcher>
+</LinearLayout>

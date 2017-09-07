@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mySwitch="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/umeng_socialize_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:src="@drawable/umeng_socialize_default_avatar" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/umeng_socialize_msg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="80.0dip" android:text="MSG" android:layout_toRightOf="@id/umeng_socialize_icon" android:layout_centerVertical="true" />
+    <com.umeng.socialize.view.wigets.SwitchImageView android:layout_gravity="center|right" android:id="@id/umeng_socialize_toggle" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/umeng_socialize_divider" android:layout_below="@id/umeng_socialize_msg" style="@style/umeng_socialize_divider" />
+</RelativeLayout>

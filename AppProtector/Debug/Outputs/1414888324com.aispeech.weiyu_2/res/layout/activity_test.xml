@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/testLine1" android:background="@drawable/border_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/app_name" />
+        <TextView android:textSize="18.0sp" android:id="@id/testText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/app_name" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/testLine2" android:background="@drawable/border_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/app_name" />
+        <TextView android:textSize="18.0sp" android:id="@id/testText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/app_name" />
+    </LinearLayout>
+    <Button android:id="@id/testButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="anniu" />
+</LinearLayout>

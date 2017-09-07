@@ -1,0 +1,26 @@
+!!b.a.b.a
+apkFileName: nores.apk
+compressionType: false
+decodeFileMaps: null
+dexMaps: null
+doNotCompress:
+- resources.arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '21'
+shakaVer: 3.0.0-master-f1e0a9f-20160905
+sharedLibrary: false
+unknownFiles:
+  META-INF/MANIFEST.MF: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.1.2-SNAPSHOT-master-64644a1
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

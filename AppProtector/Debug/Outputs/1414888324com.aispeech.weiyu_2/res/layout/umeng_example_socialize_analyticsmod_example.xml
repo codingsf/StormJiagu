@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parent" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Des:" />
+        <EditText android:id="@id/des_edit" android:layout_width="140.0dip" android:layout_height="45.0dip" android:text="Android" android:hint="请输入 descript" />
+        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="repeat:" />
+        <EditText android:id="@id/repeat_count" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="10" android:inputType="number" />
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fuction" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/analytics_like" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="喜欢" android:layout_weight="1.0" />
+        <Button android:id="@id/analytics_unlike" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="不喜欢" android:layout_weight="1.0" />
+        <Button android:id="@id/analytics_comment" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="评论" android:layout_weight="1.0" />
+        <Button android:id="@id/analytics_share" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="分享" android:layout_weight="1.0" />
+        <Button android:id="@id/analytics_share_wid" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="分享ByWID" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <ScrollView android:layout_gravity="center" android:background="@drawable/umeng_example_shape_gradient_grey_7" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_below="@id/umeng_xp_dlCon">
+            <TextView android:textSize="8.0sp" android:textColor="#ff000000" android:id="@id/reqeust_info" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ScrollView>
+        <ScrollView android:layout_gravity="center" android:background="@drawable/umeng_example_shape_gradient_grey_7" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_below="@id/umeng_xp_dlCon">
+            <TextView android:textSize="8.0sp" android:textColor="#ff000000" android:id="@id/textinfo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ScrollView>
+    </LinearLayout>
+    <Button android:id="@id/reflush_entity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Entity计数对比（Server）" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/counting_before" android:background="@drawable/umeng_example_shape_gradient_grey_7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/counting_after" android:background="@drawable/umeng_example_shape_gradient_grey_7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

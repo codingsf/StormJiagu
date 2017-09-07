@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LargeTextSize">16.0dip</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="SmallTextSize">14.0dip</dimen>
+    <dimen name="SmallerTextSize">13.0dip</dimen>
+    <dimen name="LargestTextSize">30.0dip</dimen>
+    <dimen name="ChattingTextSize">16.0dip</dimen>
+    <dimen name="ChattingContentMinHeight">49.0dip</dimen>
+    <dimen name="PreferenceItemHeight">42.0dip</dimen>
+    <dimen name="ConversationItemHeight">58.0dip</dimen>
+    <dimen name="LargeAvatarSize">56.0dip</dimen>
+    <dimen name="body_padding_medium">10.0dip</dimen>
+    <dimen name="body_padding_large">10.0dip</dimen>
+    <dimen name="text_size_small">14.0sp</dimen>
+    <dimen name="text_size_medium">18.0sp</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <dimen name="text_size_xlarge">18.0sp</dimen>
+    <dimen name="speaker_image_size">36.0dip</dimen>
+    <dimen name="speaker_image_padding">8.0dip</dimen>
+    <dimen name="vendor_image_size">100.0dip</dimen>
+    <dimen name="actionbar_height">45.0dip</dimen>
+    <dimen name="actionbar_item_height">45.0dip</dimen>
+    <dimen name="actionbar_item_width">45.0dip</dimen>
+    <dimen name="alphabet_size">12.0dip</dimen>
+    <dimen name="umeng_socialize_pad_window_height">350.0dip</dimen>
+    <dimen name="umeng_socialize_pad_window_width">580.0dip</dimen>
+</resources>

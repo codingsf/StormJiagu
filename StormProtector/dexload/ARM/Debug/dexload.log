@@ -1,0 +1,182 @@
+﻿  ANDROID_HOME=
+  ANT_HOME=F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Apps\apache-ant-1.9.3
+  JAVA_HOME=
+  NDK_ROOT=C:\ProgramData\Microsoft\AndroidNDK64\android-ndk-r13b
+  pch.h
+  Artvm.cpp
+Artvm.cpp(178,8): warning : unused variable 'res' [-Wunused-variable]
+                          int res = mprotect(result, 0x70 + 292, PROT_WRITE | PROT_READ);
+                              ^
+Artvm.cpp(190,8): warning : unused variable 'res' [-Wunused-variable]
+                          int res = mprotect(result, len, PROT_WRITE | PROT_READ);
+                              ^
+Artvm.cpp(19,14): warning : unused variable 'artoldmprotect' [-Wunused-variable]
+  static int (*artoldmprotect)(const void*, size_t, int);
+               ^
+Artvm.cpp(21,18): warning : unused variable 'artold__read_chk' [-Wunused-variable]
+  static ssize_t (*artold__read_chk)(int fd, void* buf, size_t count, size_t buf_size);
+                   ^
+  4 warnings generated.
+  dex2oat.cpp
+dex2oat.cpp(56,18): warning : ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+          char* key_str = "1234567890";
+                          ^
+dex2oat.cpp(72,47): warning : format specifies type 'long' but the argument has type 'pid_t' (aka 'int') [-Wformat]
+          sprintf(dex2oatfdlinkstr, "/proc/%ld/fd/%d", pid, fd);
+                                           ~~~         ^~~
+                                           %d
+dex2oat.cpp(78,8): warning : unused variable 'res' [-Wunused-variable]
+                          int res = mprotect(result, 0x70 + 292, PROT_WRITE | PROT_READ);
+                              ^
+dex2oat.cpp(88,19): warning : unused variable 'result' [-Wunused-variable]
+                          unsigned char* result = (unsigned char*)dex2oatoldmmap(start, len, prot, flags, fd, offset);
+                                         ^
+dex2oat.cpp(138,47): warning : format specifies type 'long' but the argument has type 'pid_t' (aka 'int') [-Wformat]
+          sprintf(dex2oatfdlinkstr, "/proc/%ld/fd/%d", pid, fd);
+                                           ~~~         ^~~
+                                           %d
+dex2oat.cpp(178,47): warning : format specifies type 'long' but the argument has type 'pid_t' (aka 'int') [-Wformat]
+          sprintf(dex2oatfdlinkstr, "/proc/%ld/fd/%d", pid, fd);
+                                           ~~~         ^~~
+                                           %d
+dex2oat.cpp(180,63): warning : comparison of array 'dex2oatlinkPath' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+          if (readlink(dex2oatfdlinkstr, dex2oatlinkPath, 256) >= 0 && dex2oatlinkPath != nullptr)
+                                                                       ^~~~~~~~~~~~~~~    ~~~~~~~
+dex2oat.cpp(206,47): warning : format specifies type 'long' but the argument has type 'pid_t' (aka 'int') [-Wformat]
+          sprintf(dex2oatfdlinkstr, "/proc/%ld/fd/%d", pid, fd);
+                                           ~~~         ^~~
+                                           %d
+dex2oat.cpp(255,47): warning : format specifies type 'long' but the argument has type 'pid_t' (aka 'int') [-Wformat]
+          sprintf(dex2oatfdlinkstr, "/proc/%ld/fd/%d", pid, fd);
+                                           ~~~         ^~~
+                                           %d
+dex2oat.cpp(23,18): warning : unused variable 'dex2oatoldpwrite' [-Wunused-variable]
+  static ssize_t (*dex2oatoldpwrite)(int fd, const void* buf, size_t count, off_t offset);
+                   ^
+dex2oat.cpp(48,22): warning : unused variable 'sbox' [-Wunused-variable]
+  static unsigned char sbox[256] = {0};
+                       ^
+  11 warnings generated.
+  Davlikvm.cpp
+  dexload.cpp
+dexload.cpp(73,11): warning : ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+          RC4KEY = "1234567890";
+                   ^
+  1 warning generated.
+  Hook.cpp
+Hook.cpp(32,6): warning : unused variable 'res' [-Wunused-variable]
+          int res= GodinHook::NativeHook::registeredHook((size_t)addr, (size_t)new_func, (size_t **)old_func);
+              ^
+  1 warning generated.
+  arm_instruction.cpp
+hook\arm\instruction\arm_instruction.cpp(179,22): warning : variable 'value' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+              else if (type == LDR_ARM) {
+                       ^~~~~~~~~~~~~~~
+  hook\arm\instruction\arm_instruction.cpp(196,25) :  note: uninitialized use occurs here
+          repair[pos++] = value;
+                          ^~~~~
+  hook\arm\instruction\arm_instruction.cpp(179,18) :  note: remove the 'if' if its condition is always true
+              else if (type == LDR_ARM) {
+                   ^~~~~~~~~~~~~~~~~~~~~
+  hook\arm\instruction\arm_instruction.cpp(165,23) :  note: initialize the variable 'value' to silence this warning
+          uint32_t value;
+                        ^
+                         = 0
+hook\arm\instruction\arm_instruction.cpp(14,13): warning : unused function 'clearcache' [-Wunused-function]
+  static void clearcache(char* begin, char *end)
+              ^
+  2 warnings generated.
+  instruction_helper.cpp
+  thumb_instruction.cpp
+hook\arm\instruction\thumb_instruction.cpp(13,11): warning : comparison between NULL and non-pointer (NULL and 'size_t' (aka 'unsigned int')) [-Wnull-arithmetic]
+    if(NULL == originalAddress || NULL == targetAddress)
+       ~~~~ ^  ~~~~~~~~~~~~~~~
+hook\arm\instruction\thumb_instruction.cpp(13,38): warning : comparison between NULL and non-pointer (NULL and 'size_t' (aka 'unsigned int')) [-Wnull-arithmetic]
+    if(NULL == originalAddress || NULL == targetAddress)
+                                  ~~~~ ^  ~~~~~~~~~~~~~
+hook\arm\instruction\thumb_instruction.cpp(157,12): warning : variable 'value' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+                  else if (type == B2_THUMB32) {
+                           ^~~~~~~~~~~~~~~~~~
+  hook\arm\instruction\thumb_instruction.cpp(163,20) :  note: uninitialized use occurs here
+                  respair[idx++] = value & 0xFFFF;
+                                   ^~~~~
+  hook\arm\instruction\thumb_instruction.cpp(157,8) :  note: remove the 'if' if its condition is always true
+                  else if (type == B2_THUMB32) {
+                       ^~~~~~~~~~~~~~~~~~~~~~~~
+  hook\arm\instruction\thumb_instruction.cpp(122,17) :  note: initialize the variable 'value' to silence this warning
+                  uint32_t value;
+                                ^
+                                 = 0
+hook\arm\instruction\thumb_instruction.cpp(308,11): warning : unused variable 'rm' [-Wunused-variable]
+        int rm;
+            ^
+hook\arm\instruction\thumb_instruction.cpp(339,32): warning : operator '<<' has lower precedence than '+'; '+' will be evaluated first [-Wshift-op-parentheses]
+            value = ALIGN_PC(pc) + (instruction & 0xFF) << 2;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~ ~~
+  hook\arm\instruction\thumb_instruction.cpp(339,32) :  note: place parentheses around the '+' expression to silence this warning
+            value = ALIGN_PC(pc) + (instruction & 0xFF) << 2;
+                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+hook\arm\instruction\thumb_instruction.cpp(296,16): warning : variable 'value' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+        else if (type == BX_THUMB16) {
+                 ^~~~~~~~~~~~~~~~~~
+  hook\arm\instruction\thumb_instruction.cpp(302,34) :  note: uninitialized use occurs here
+        respair[idx++] = valueToPc(value) & 0xFFFF;
+                                   ^~~~~
+  hook\arm\instruction\thumb_instruction.cpp(296,12) :  note: remove the 'if' if its condition is always true
+        else if (type == BX_THUMB16) {
+             ^~~~~~~~~~~~~~~~~~~~~~~~
+  hook\arm\instruction\thumb_instruction.cpp(277,21) :  note: initialize the variable 'value' to silence this warning
+        uint32_t value;
+                      ^
+                       = 0
+hook\arm\instruction\thumb_instruction.cpp(367,7): warning : unused variable 'backlen' [-Wunused-variable]
+    int backlen = sizeofStub();
+        ^
+hook\arm\instruction\thumb_instruction.cpp(452,11): warning : comparison between NULL and non-pointer (NULL and 'size_t' (aka 'unsigned int')) [-Wnull-arithmetic]
+    if(NULL == address)
+       ~~~~ ^  ~~~~~~~
+  8 warnings generated.
+  mem_helper.cpp
+  native_hook.cpp
+hook\arm\native_hook.cpp(18,8): warning : unused variable 'flag' [-Wunused-variable]
+    bool flag = false;
+         ^
+hook\arm\native_hook.cpp(134,47): warning : comparison between NULL and non-pointer ('size_t' (aka 'unsigned int') and NULL) [-Wnull-arithmetic]
+        if(NULL != info && (info->getHookAddr() != NULL))
+                            ~~~~~~~~~~~~~~~~~~~ ^  ~~~~
+hook\arm\native_hook.cpp(156,15): warning : unused variable 'i' [-Wunused-variable]
+            int i;
+                ^
+  3 warnings generated.
+  thread_helper.cpp
+  ARM.cpp
+  Debug.cpp
+  Hooker.cpp
+  MSHook.cpp
+  PosixMemory.cpp
+  Thumb.cpp
+  util.cpp
+  x86.cpp
+  x86_64.cpp
+  loaddata.cpp
+loaddata.cpp(21,13): warning : ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+  char* tag = "jack";
+              ^
+loaddata.cpp(457,28): warning : ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+          Util::get_system_property("ro.build.version.release",android_buildversion);
+                                    ^
+loaddata.cpp(460,28): warning : ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+          Util::get_system_property("ro.build.version.sdk", android_buildversion);
+                                    ^
+loaddata.cpp(524,12): warning : unused variable 'inPath' [-Wunused-variable]
+                          jstring inPath = env->NewStringUTF(szDexPath);
+                                  ^
+loaddata.cpp(799,36): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+          Messageprint::printinfo("dvm", "<U+03B4><BC><D3><D4><D8><U+05AE><U+01F0><B5><C4>Elements<B8><F6><CA><FD>:%d", len);
+                                                  ^~~~~~~~~~~~~~~~                ~~~~~~~~        ~~~~~~~~~~~~~~~~
+  5 warnings generated.
+  Messageprint.cpp
+  PluginDex.cpp
+  Security.cpp
+  Utilload.cpp
+  dexload.vcxproj -> D:\项目\dexload\dexload-master\ARM\Debug\libdexload.so

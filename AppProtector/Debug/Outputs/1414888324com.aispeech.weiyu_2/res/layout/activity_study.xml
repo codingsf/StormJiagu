@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/title_panel" android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/backBtn" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/btn_back" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/pageTitle" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/app_space" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_setting" android:background="@color/blue" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/btn_setting_icon" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/button_setting" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_learn1" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:minHeight="100.0dip" android:layout_weight="1.0" android:textDirection="anyRtl" android:textAlignment="viewEnd" android:layoutDirection="rtl" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="22.0sp" android:textColor="@color/black" android:gravity="left" android:id="@id/chineseShow" android:background="@drawable/border_bottom" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" />
+        <TextView android:textSize="26.0sp" android:textColor="@color/black" android:gravity="center|right" android:id="@id/vivenShow" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="anyRtl" android:textAlignment="inherit" android:layoutDirection="locale" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/sharePanelBtn" android:background="@drawable/bg_learn2" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <ImageButton android:id="@id/bookMarkBtn" android:background="@color/trans" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/btn_mark" android:contentDescription="@string/app_name" />
+        <TextView android:background="@color/gray2" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+        <ImageButton android:id="@id/hardBtn" android:background="@color/trans" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/btn_hard" android:contentDescription="@string/app_name" />
+        <TextView android:background="@color/gray2" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+        <ImageButton android:id="@id/shareBtn" android:background="@color/trans" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/btn_share" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/buttonPanel" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/playButton" android:background="@color/trans" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_play" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/recordButton" android:background="@color/trans" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_record" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:id="@id/replayButton" android:tag="" android:background="@color/trans" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_replay" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/recordProgressBar" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <include android:id="@id/bottomBar" layout="@layout/layout_menutab" />
+</LinearLayout>

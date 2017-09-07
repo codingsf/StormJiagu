@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/umeng_fb_list_reply_header" android:layout_width="fill_parent" android:layout_height="20.0dip">
+        <TextView android:textSize="10.0sp" android:textColor="#ff666666" android:id="@id/umeng_fb_reply_date" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/umeng_fb_reply_date_default" android:textScaleX="0.8" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:background="#ffbbbbbb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_toLeftOf="@id/umeng_fb_reply_date" android:layout_centerVertical="true" />
+        <TextView android:background="#ffbbbbbb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_toRightOf="@id/umeng_fb_reply_date" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/umeng_fb_list_reply_header">
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/umeng_fb_reply_content" android:background="@drawable/umeng_fb_reply_right_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:maxWidth="200.0dip" android:text="@string/umeng_fb_reply_content_default" android:textIsSelectable="true" />
+    </RelativeLayout>
+</RelativeLayout>

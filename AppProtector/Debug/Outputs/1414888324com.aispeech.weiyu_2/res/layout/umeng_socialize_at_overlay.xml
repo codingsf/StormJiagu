@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="50.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:background="@drawable/umeng_socialize_shape_solid_black" android:padding="10.0dip" android:visibility="invisible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:maxWidth="60.0dip" android:minWidth="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/umeng_socialize_comments_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/umeng_socialize_titile_bar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/umeng_socialize_line_edit" android:background="#ffc4c4c4" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+            <EditText android:textColor="@color/umeng_socialize_text_time" android:id="@id/umeng_socialize_comment_write" android:paddingLeft="12.0dip" android:focusable="false" android:hint="@string/umeng_socialize_text_comment_hint" android:editable="false" android:layout_centerVertical="true" style="@style/umeng_socialize_edit_padding" />
+        </RelativeLayout>
+        <com.umeng.socialize.view.wigets.PullToRefreshListView android:id="@id/umeng_socialize_comment_list" android:visibility="gone" android:fadingEdgeLength="0.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="true" android:divider="#ffeeeeee" android:dividerHeight="1.0dip" android:layout_above="@id/umeng_socialize_line_edit" android:fastScrollEnabled="true" />
+        <RelativeLayout android:id="@id/umeng_socialize_comment_list_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/umeng_socialize_line_edit">
+            <ProgressBar android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

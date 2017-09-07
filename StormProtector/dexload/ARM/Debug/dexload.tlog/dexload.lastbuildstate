@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=:PlatformToolSet=Clang_3_8:EnableManagedIncrementalBuild=:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=
+Debug|ARM|D:\项目\dexload\dexload-master\|

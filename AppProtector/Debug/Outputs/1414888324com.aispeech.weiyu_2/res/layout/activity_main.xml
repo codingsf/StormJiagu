@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/showBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_share" />
+    <Button android:id="@id/sinaBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sina_share" />
+    <Button android:id="@id/renrenBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/renren_share" />
+    <Button android:id="@id/tecentBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tecent_share" />
+    <Button android:id="@id/wxBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wx_share" />
+    <Button android:id="@id/scrShotBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scr_share" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/menu_parent" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/menu_content" android:layout_width="250.0dip" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/menu_content" />
+</RelativeLayout>

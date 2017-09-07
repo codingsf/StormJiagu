@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/slide_menu_bg" android:layout_width="250.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:text="用户" />
+    <View android:background="#ff5ac3b6" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+    <RelativeLayout android:id="@id/msg_user_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+        <ImageView android:id="@id/msg_icon" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_margin="5.0dip" android:src="@drawable/umeng_default_avatar" android:scaleType="fitXY" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/msg_name" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:text="登录账号" android:layout_toRightOf="@id/msg_icon" />
+        <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="#ff82949c" android:gravity="center_vertical" android:id="@id/msg_gender" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginLeft="8.0dip" android:text="性别" android:layout_toRightOf="@id/msg_icon" android:layout_below="@id/msg_name" />
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:text="分享设置" />
+    <View android:background="#ff5ac3b6" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_qzone_on" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_qzone" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="QQ空间" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_sina_on" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_sina" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="新浪微博" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_tx_on" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_tenc" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="腾讯微博" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_renren_on" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_renr" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="人人网" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_douban_on" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_douban" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="豆瓣" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_facebook" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_facebook" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="Facebook" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_twitter" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_twitter" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="Twitter" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/slide_menu_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/umeng_socialize_google" android:scaleType="fitXY" />
+        <ToggleButton android:textSize="16.0sp" android:textColor="#ff82949c" android:id="@id/switch_google" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="6.0dip" android:text="Google+" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:text="其他" />
+    <View android:background="#ff5ac3b6" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+</LinearLayout>

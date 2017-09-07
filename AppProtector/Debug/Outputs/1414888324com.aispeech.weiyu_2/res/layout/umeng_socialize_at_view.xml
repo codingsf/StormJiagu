@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title" layout="@layout/umeng_socialize_titile_bar" />
+    <RelativeLayout android:background="#ff393d46" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/umeng_socialize_line_serach" android:background="#ffc4c4c4" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <com.umeng.socialize.view.wigets.SearchBox android:textSize="14.0sp" android:textColor="@color/umeng_socialize_list_item_textcolor" android:id="@id/search_text" android:paddingLeft="32.0dip" android:hint="搜索" android:maxLength="8" android:layout_centerVertical="true" style="@style/umeng_socialize_edit_padding" />
+            <ImageView android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginLeft="18.0dip" android:src="@drawable/umeng_socialize_search_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.umeng.socialize.view.wigets.SectionListView android:id="@id/listView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffeeeeee" android:dividerHeight="1.0dip" android:layout_below="@id/umeng_socialize_line_serach" />
+        <com.umeng.socialize.view.wigets.SlideBar android:id="@id/slideBar" android:background="@drawable/umeng_socialize_sidebar_selector" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="fill_parent" android:layout_below="@id/umeng_socialize_line_serach" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/umeng_socialize_progress" android:background="#ff393d46" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

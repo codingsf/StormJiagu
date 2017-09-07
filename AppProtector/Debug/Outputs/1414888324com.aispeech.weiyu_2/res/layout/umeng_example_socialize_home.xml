@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.umeng.ui.widget.DashboardLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/umeng_example_socialize_home_btn_share_mod" android:background="@drawable/umeng_strock_bg_high_light" android:text="分享接口" style="@style/DashboardButton" />
+    <Button android:id="@id/umeng_example_socialize_home_btn_customplatform_mod" android:text="微信/QQ" style="@style/DashboardButton" />
+    <Button android:id="@id/umeng_example_socialize_home_btn_other_mod" android:visibility="visible" android:text="用户接口" style="@style/DashboardButton" />
+    <Button android:id="@id/umeng_example_socialize_home_btn_comment_mod" android:text="评论模块" style="@style/DashboardButton" />
+    <Button android:id="@id/umeng_example_socialize_home_btn_analytics_mod" android:visibility="gone" android:text="ActionBar单例复用" style="@style/DashboardButton" />
+    <Button android:id="@id/umeng_example_socialize_home_btn_common_config" android:visibility="gone" android:text="通用配置" style="@style/DashboardButton" />
+</com.umeng.ui.widget.DashboardLayout>

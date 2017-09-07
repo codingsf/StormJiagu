@@ -1,0 +1,186 @@
+!!b.a.b.a
+apkFileName: 1414888324com.aispeech.weiyu_2.apk
+compressionType: false
+decodeFileMaps:
+  res/drawable-hdpi/ic_title_refresh_default.png: res/drawable-hdpi-v4/ic_title_refresh_default.png
+  res/drawable-hdpi/mm_edit_normal.9.png: res/drawable-hdpi-v4/mm_edit_normal.9.png
+  res/drawable-hdpi/mm_title_btn_focused.9.png: res/drawable-hdpi-v4/mm_title_btn_focused.9.png
+  res/drawable-hdpi/btn_check_on_disable.png: res/drawable-hdpi-v4/btn_check_on_disable.png
+  res/drawable-xhdpi/btn_share_default_s.png: res/drawable-xhdpi-v4/btn_share_default_s.png
+  res/drawable-hdpi/umeng_socialize_share_video.png: res/drawable-hdpi-v4/umeng_socialize_share_video.png
+  res/drawable-hdpi/umeng_socialize_share_pic.png: res/drawable-hdpi-v4/umeng_socialize_share_pic.png
+  res/drawable-xhdpi/walkthrough3.jpg: res/drawable-xhdpi-v4/walkthrough3.jpg
+  res/drawable-mdpi/menu_selected.png: res/drawable-mdpi-v4/menu_selected.png
+  res/drawable-hdpi/btn_style_alert_dialog_background.9.png: res/drawable-hdpi-v4/btn_style_alert_dialog_background.9.png
+  res/drawable-hdpi/mm_title_btn_pressed.9.png: res/drawable-hdpi-v4/mm_title_btn_pressed.9.png
+  res/drawable-xhdpi/btn_listen_active.png: res/drawable-xhdpi-v4/btn_listen_active.png
+  res/drawable-xhdpi/btn_start_active.png: res/drawable-xhdpi-v4/btn_start_active.png
+  res/drawable-xhdpi/btn_back.png: res/drawable-xhdpi-v4/btn_back.png
+  res/drawable-hdpi/ic_preference_single_pressed.9.png: res/drawable-hdpi-v4/ic_preference_single_pressed.9.png
+  res/drawable-hdpi/actionbar_compat_separator.9.png: res/drawable-hdpi-v4/actionbar_compat_separator.9.png
+  res/drawable-mdpi/record_on.png: res/drawable-mdpi-v4/record_on.png
+  res/drawable-xhdpi/btn_search_default.png: res/drawable-xhdpi-v4/btn_search_default.png
+  res/drawable-hdpi/ic_preference_single_normal.9.png: res/drawable-hdpi-v4/ic_preference_single_normal.9.png
+  res/drawable-hdpi/ic_dialog_alert.png: res/drawable-hdpi-v4/ic_dialog_alert.png
+  res/drawable-hdpi/umeng_socialize_light_bar_bg_pad.9.png: res/drawable-hdpi-v4/umeng_socialize_light_bar_bg_pad.9.png
+  res/drawable-hdpi/mm_listitem_pressed.9.png: res/drawable-hdpi-v4/mm_listitem_pressed.9.png
+  res/drawable-hdpi/send_img.jpg: res/drawable-hdpi-v4/send_img.jpg
+  res/drawable-hdpi/send_music_thumb.png: res/drawable-hdpi-v4/send_music_thumb.png
+  res/drawable-hdpi/mm_listitem_disable.9.png: res/drawable-hdpi-v4/mm_listitem_disable.9.png
+  res/drawable-xhdpi/umeng_socialize_switchimage_unchoose.png: res/drawable-xhdpi-v4/umeng_socialize_switchimage_unchoose.png
+  res/drawable-mdpi/menu_normal.png: res/drawable-mdpi-v4/menu_normal.png
+  res/drawable-xhdpi/login_kuang.9.png: res/drawable-xhdpi-v4/login_kuang.9.png
+  res/drawable-xhdpi/btn_star_active.png: res/drawable-xhdpi-v4/btn_star_active.png
+  res/drawable-hdpi/btn_style_alert_dialog_button_pressed.9.png: res/drawable-hdpi-v4/btn_style_alert_dialog_button_pressed.9.png
+  res/drawable-xhdpi/login_bg.9.png: res/drawable-xhdpi-v4/login_bg.9.png
+  res/drawable-xhdpi/btn_book_default.png: res/drawable-xhdpi-v4/btn_book_default.png
+  res/drawable-xhdpi/ic_board_bottom.9.png: res/drawable-xhdpi-v4/ic_board_bottom.9.png
+  res/drawable-hdpi/umeng_socialize_share_music.png: res/drawable-hdpi-v4/umeng_socialize_share_music.png
+  res/drawable-xhdpi/btn_share_default.png: res/drawable-xhdpi-v4/btn_share_default.png
+  res/drawable-xhdpi/ic_launcher.png: res/drawable-xhdpi-v4/ic_launcher.png
+  res/drawable-xhdpi/btn_right_active.png: res/drawable-xhdpi-v4/btn_right_active.png
+  res/drawable-xhdpi/btn_tip_active.png: res/drawable-xhdpi-v4/btn_tip_active.png
+  res/drawable-xhdpi/btn_tip_default.png: res/drawable-xhdpi-v4/btn_tip_default.png
+  res/drawable-hdpi/umeng_socialize_nav_bar_bg_pad.9.png: res/drawable-hdpi-v4/umeng_socialize_nav_bar_bg_pad.9.png
+  res/drawable-xhdpi/umeng_socialize_switchbutton_mask.png: res/drawable-xhdpi-v4/umeng_socialize_switchbutton_mask.png
+  res/drawable-xhdpi/btn_record_active.png: res/drawable-xhdpi-v4/btn_record_active.png
+  res/drawable-xhdpi/umeng_socialize_switchbutton_btn_unpressed.png: res/drawable-xhdpi-v4/umeng_socialize_switchbutton_btn_unpressed.png
+  res/drawable-xhdpi/score_good1.png: res/drawable-xhdpi-v4/score_good1.png
+  res/drawable-xhdpi/score_ok1.png: res/drawable-xhdpi-v4/score_ok1.png
+  res/drawable-hdpi/btn_style_one_disabled.9.png: res/drawable-hdpi-v4/btn_style_one_disabled.9.png
+  res/drawable-hdpi/ic_preference_first_pressed.9.png: res/drawable-hdpi-v4/ic_preference_first_pressed.9.png
+  res/drawable-hdpi/actionbar_compat_background.9.png: res/drawable-hdpi-v4/actionbar_compat_background.9.png
+  res/drawable-xhdpi/umeng_socialize_switchbutton_frame.png: res/drawable-xhdpi-v4/umeng_socialize_switchbutton_frame.png
+  res/drawable-xhdpi/btn_share_active.png: res/drawable-xhdpi-v4/btn_share_active.png
+  res/drawable-xhdpi/btn_book_active.png: res/drawable-xhdpi-v4/btn_book_active.png
+  res/drawable-hdpi/send_music_thumb_backup.png: res/drawable-hdpi-v4/send_music_thumb_backup.png
+  res/drawable-xhdpi/btn_search_b.png: res/drawable-xhdpi-v4/btn_search_b.png
+  res/drawable-xhdpi/login_word.png: res/drawable-xhdpi-v4/login_word.png
+  res/drawable-xhdpi/umeng_socialize_switchbutton_btn_pressed.png: res/drawable-xhdpi-v4/umeng_socialize_switchbutton_btn_pressed.png
+  res/drawable-hdpi/ic_title_home_default.png: res/drawable-hdpi-v4/ic_title_home_default.png
+  res/drawable-hdpi/ic_preference_pressed.9.png: res/drawable-hdpi-v4/ic_preference_pressed.9.png
+  res/drawable-hdpi/umeng_example_socialize_action_icon.png: res/drawable-hdpi-v4/umeng_example_socialize_action_icon.png
+  res/drawable-xhdpi/btn_more_default.png: res/drawable-xhdpi-v4/btn_more_default.png
+  res/drawable-hdpi/mm_title_back_focused.9.png: res/drawable-hdpi-v4/mm_title_back_focused.9.png
+  res/drawable-hdpi/ic_preference_one_normal.9.png: res/drawable-hdpi-v4/ic_preference_one_normal.9.png
+  res/drawable-xhdpi/btn_share_tengxun.png: res/drawable-xhdpi-v4/btn_share_tengxun.png
+  res/drawable-hdpi/ic_preference_last_pressed.9.png: res/drawable-hdpi-v4/ic_preference_last_pressed.9.png
+  res/drawable-xhdpi/score_bad1.png: res/drawable-xhdpi-v4/score_bad1.png
+  res/drawable-hdpi/umeng_socialize_oauth_check_off.png: res/drawable-hdpi-v4/umeng_socialize_oauth_check_off.png
+  res/drawable-hdpi/btn_style_alert_dialog_special_pressed.9.png: res/drawable-hdpi-v4/btn_style_alert_dialog_special_pressed.9.png
+  res/drawable-hdpi/icon.png: res/drawable-hdpi-v4/icon.png
+  res/drawable-xhdpi/btn_share_pengyouquan.png: res/drawable-xhdpi-v4/btn_share_pengyouquan.png
+  res/drawable-hdpi/mm_title_act_btn_focused.9.png: res/drawable-hdpi-v4/mm_title_act_btn_focused.9.png
+  res/drawable-hdpi/mm_submenu_normal.png: res/drawable-hdpi-v4/mm_submenu_normal.png
+  res/drawable-hdpi/weixin_icon.png: res/drawable-hdpi-v4/weixin_icon.png
+  res/drawable-xhdpi/btn_listen_default.png: res/drawable-xhdpi-v4/btn_listen_default.png
+  res/drawable-xhdpi/walkthrough1.jpg: res/drawable-xhdpi-v4/walkthrough1.jpg
+  res/drawable-xhdpi/ic_arrow_right.9.png: res/drawable-xhdpi-v4/ic_arrow_right.9.png
+  res/drawable-hdpi/ic_preference_normal.9.png: res/drawable-hdpi-v4/ic_preference_normal.9.png
+  res/drawable-xhdpi/btn_star_default.png: res/drawable-xhdpi-v4/btn_star_default.png
+  res/drawable-hdpi/mm_title_act_btn_pressed.9.png: res/drawable-hdpi-v4/mm_title_act_btn_pressed.9.png
+  res/drawable-xhdpi/btn_droplist.png: res/drawable-xhdpi-v4/btn_droplist.png
+  res/drawable-xhdpi/btn_controlpoint.png: res/drawable-xhdpi-v4/btn_controlpoint.png
+  res/drawable-xhdpi/ic_sanjiao.png: res/drawable-xhdpi-v4/ic_sanjiao.png
+  res/drawable-xhdpi/btn_start_active3.png: res/drawable-xhdpi-v4/btn_start_active3.png
+  res/drawable-hdpi/slide_menu_bg.9.png: res/drawable-hdpi-v4/slide_menu_bg.9.png
+  res/drawable-hdpi/social_introduce.jpg: res/drawable-hdpi-v4/social_introduce.jpg
+  res/drawable-xhdpi/btn_more_active.png: res/drawable-xhdpi-v4/btn_more_active.png
+  res/drawable-xhdpi/btn_record_default.png: res/drawable-xhdpi-v4/btn_record_default.png
+  res/drawable-hdpi/mm_title_back_pressed.9.png: res/drawable-hdpi-v4/mm_title_back_pressed.9.png
+  res/drawable-xhdpi/login_error.png: res/drawable-xhdpi-v4/login_error.png
+  res/drawable-hdpi/btn_style_one_pressed.9.png: res/drawable-hdpi-v4/btn_style_one_pressed.9.png
+  res/drawable-hdpi/btn_style_one_focused.9.png: res/drawable-hdpi-v4/btn_style_one_focused.9.png
+  res/drawable-xhdpi/btn_back_default.png: res/drawable-xhdpi-v4/btn_back_default.png
+  res/drawable-xhdpi/score_good2.png: res/drawable-xhdpi-v4/score_good2.png
+  res/drawable-hdpi/mm_title_act_btn_normal.9.png: res/drawable-hdpi-v4/mm_title_act_btn_normal.9.png
+  res/drawable-xhdpi/score_ok2.png: res/drawable-xhdpi-v4/score_ok2.png
+  res/drawable-hdpi/ic_title_share_default.png: res/drawable-hdpi-v4/ic_title_share_default.png
+  res/drawable-xhdpi/btn_setting_active.png: res/drawable-xhdpi-v4/btn_setting_active.png
+  res/drawable-xhdpi/ic_sanjiao_n.png: res/drawable-xhdpi-v4/ic_sanjiao_n.png
+  res/drawable-xhdpi/btn_search_active.png: res/drawable-xhdpi-v4/btn_search_active.png
+  res/drawable-hdpi/mm_title_act_btn_disable.9.png: res/drawable-hdpi-v4/mm_title_act_btn_disable.9.png
+  res/drawable-hdpi/btn_check_on_normal.png: res/drawable-hdpi-v4/btn_check_on_normal.png
+  res/drawable-xhdpi/btn_share_active_s.png: res/drawable-xhdpi-v4/btn_share_active_s.png
+  res/drawable-xhdpi/btn_pause_active.png: res/drawable-xhdpi-v4/btn_pause_active.png
+  res/drawable-xhdpi/about_icon.png: res/drawable-xhdpi-v4/about_icon.png
+  res/drawable-hdpi/mm_submenu_pressed.png: res/drawable-hdpi-v4/mm_submenu_pressed.png
+  res/drawable-hdpi/btn_check_off_disable.png: res/drawable-hdpi-v4/btn_check_off_disable.png
+  res/drawable-hdpi/wxcircel.png: res/drawable-hdpi-v4/wxcircel.png
+  res/drawable-hdpi/ic_preference_top_normal.9.png: res/drawable-hdpi-v4/ic_preference_top_normal.9.png
+  res/drawable-xhdpi/ic_board_top.9.png: res/drawable-xhdpi-v4/ic_board_top.9.png
+  res/drawable-hdpi/ic_preference_first_normal.9.png: res/drawable-hdpi-v4/ic_preference_first_normal.9.png
+  res/drawable-xhdpi/btn_start_default.png: res/drawable-xhdpi-v4/btn_start_default.png
+  res/drawable-xhdpi/btn_share_weibo.png: res/drawable-xhdpi-v4/btn_share_weibo.png
+  res/drawable-ldpi/ic_launcher.png: res/drawable-ldpi-v4/ic_launcher.png
+  res/drawable-mdpi/ic_launcher.png: res/drawable-mdpi-v4/ic_launcher.png
+  res/drawable-hdpi/btn_style_one_normal.9.png: res/drawable-hdpi-v4/btn_style_one_normal.9.png
+  res/drawable-xhdpi/about_qrcode.png: res/drawable-xhdpi-v4/about_qrcode.png
+  res/drawable-hdpi/btn_style_alert_dialog_special_normal.9.png: res/drawable-hdpi-v4/btn_style_alert_dialog_special_normal.9.png
+  res/drawable-hdpi/mm_title_back_normal.9.png: res/drawable-hdpi-v4/mm_title_back_normal.9.png
+  res/drawable-xhdpi/btn_droplist_point.png: res/drawable-xhdpi-v4/btn_droplist_point.png
+  res/drawable-mdpi/record_normal.png: res/drawable-mdpi-v4/record_normal.png
+  res/drawable-hdpi/umeng_socialize_oauth_check_on.png: res/drawable-hdpi-v4/umeng_socialize_oauth_check_on.png
+  res/drawable-hdpi/mm_trans.png: res/drawable-hdpi-v4/mm_trans.png
+  res/drawable-hdpi/actionbar_compat_logo.png: res/drawable-hdpi-v4/actionbar_compat_logo.png
+  res/drawable-xhdpi/login_btn_blue.9.png: res/drawable-xhdpi-v4/login_btn_blue.9.png
+  res/drawable-xhdpi/btn_setting_default.png: res/drawable-xhdpi-v4/btn_setting_default.png
+  res/drawable-hdpi/ic_preference_last_normal.9.png: res/drawable-hdpi-v4/ic_preference_last_normal.9.png
+  res/drawable-xhdpi/ic_arrow_left.9.png: res/drawable-xhdpi-v4/ic_arrow_left.9.png
+  res/drawable-xhdpi/btn_share_b.png: res/drawable-xhdpi-v4/btn_share_b.png
+  res/drawable-hdpi/btn_style_alert_dialog_button_normal.9.png: res/drawable-hdpi-v4/btn_style_alert_dialog_button_normal.9.png
+  res/drawable-hdpi/btn_bg_selected.9.png: res/drawable-hdpi-v4/btn_bg_selected.9.png
+  res/drawable-xhdpi/score_bad2.png: res/drawable-xhdpi-v4/score_bad2.png
+  res/drawable-xhdpi/sucha_heart.png: res/drawable-xhdpi-v4/sucha_heart.png
+  res/drawable-xhdpi/btn_setting_b.png: res/drawable-xhdpi-v4/btn_setting_b.png
+  res/drawable-hdpi/ic_preference_top_pressed.9.png: res/drawable-hdpi-v4/ic_preference_top_pressed.9.png
+  res/drawable-xhdpi/umeng_socialize_switchimage_choose.png: res/drawable-xhdpi-v4/umeng_socialize_switchimage_choose.png
+  res/drawable-hdpi/umeng_example_shape_hollow_grey.xml: res/drawable-hdpi-v4/umeng_example_shape_hollow_grey.xml
+  res/drawable-xhdpi/btn_heart_default.png: res/drawable-xhdpi-v4/btn_heart_default.png
+  res/drawable-hdpi/btn_style_alert_dialog_cancel_normal.9.png: res/drawable-hdpi-v4/btn_style_alert_dialog_cancel_normal.9.png
+  res/drawable-hdpi/mm_title_bg.9.png: res/drawable-hdpi-v4/mm_title_bg.9.png
+  res/drawable-xhdpi/btn_right_default.png: res/drawable-xhdpi-v4/btn_right_default.png
+  res/drawable-hdpi/ic_launcher.png: res/drawable-hdpi-v4/ic_launcher.png
+  res/drawable-hdpi/umeng_socialize_example_setting.png: res/drawable-hdpi-v4/umeng_socialize_example_setting.png
+  res/drawable-hdpi/umeng_example_socialize_wel.png: res/drawable-hdpi-v4/umeng_example_socialize_wel.png
+  res/drawable-hdpi/mm_checkbox_mini_checked.9.png: res/drawable-hdpi-v4/mm_checkbox_mini_checked.9.png
+  res/drawable-xhdpi/bg_learn2.9.png: res/drawable-xhdpi-v4/bg_learn2.9.png
+  res/drawable-hdpi/mm_listitem_normal.9.png: res/drawable-hdpi-v4/mm_listitem_normal.9.png
+  res/drawable-xhdpi/bg_learn1.9.png: res/drawable-xhdpi-v4/bg_learn1.9.png
+  res/drawable-hdpi/mm_edit_focused.9.png: res/drawable-hdpi-v4/mm_edit_focused.9.png
+  res/drawable-hdpi/mm_title_btn_normal.9.png: res/drawable-hdpi-v4/mm_title_btn_normal.9.png
+  res/drawable-hdpi/ic_preference_one_pressed.9.png: res/drawable-hdpi-v4/ic_preference_one_pressed.9.png
+  res/drawable-hdpi/mm_checkbox_mini_normal.9.png: res/drawable-hdpi-v4/mm_checkbox_mini_normal.9.png
+  res/drawable-xhdpi/btn_heart_active.png: res/drawable-xhdpi-v4/btn_heart_active.png
+  res/drawable-xhdpi/walkthrough2.jpg: res/drawable-xhdpi-v4/walkthrough2.jpg
+  res/drawable-hdpi/actionbar_back_indicator.png: res/drawable-hdpi-v4/actionbar_back_indicator.png
+  res/drawable-hdpi/btn_check_off_normal.png: res/drawable-hdpi-v4/btn_check_off_normal.png
+  res/drawable-hdpi/ic_dialog_long_click.png: res/drawable-hdpi-v4/ic_dialog_long_click.png
+  res/drawable-hdpi/btn_bg_pressed.9.png: res/drawable-hdpi-v4/btn_bg_pressed.9.png
+  res/drawable-xhdpi/umeng_socialize_switchbutton_bottom.png: res/drawable-xhdpi-v4/umeng_socialize_switchbutton_bottom.png
+dexMaps: null
+doNotCompress:
+- resources.arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '17'
+shakaVer: 3.0.0-master-f1e0a9f-20160905
+sharedLibrary: false
+unknownFiles:
+  com/androidquery/util/web_image.html: '8'
+  com/tencent/mm/sdk/platformtools/rep5402863540997075488.tmp: '8'
+  config/config.properties: '8'
+  org/apache/http/entity/mime/version.properties: '8'
+  META-INF/MANIFEST.MF: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.1.2-SNAPSHOT-master-64644a1
+versionInfo:
+  versionCode: '2'
+  versionName: 1.0.1

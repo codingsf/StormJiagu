@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/umeng_socialize_funcation_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <RelativeLayout android:gravity="center" android:id="@id/umeng_socialize_comment_bt" style="@style/umeng_socialize_action_bar_itemlayout">
+            <ImageView android:id="@id/umeng_socialize_action_comment_im" android:src="@drawable/umeng_socialize_comment_icon" style="@style/umeng_socialize_action_bar_item_im" />
+            <TextView android:textColor="#ff646464" android:id="@id/umeng_socialize_action_comment_tv" android:layout_toRightOf="@id/umeng_socialize_action_comment_im" style="@style/umeng_socialize_action_bar_item_tv" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/umeng_socialize_like_bt" style="@style/umeng_socialize_action_bar_itemlayout">
+            <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/umeng_socialize_like_bt_show" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/umeng_socialize_like_icon" android:src="@drawable/umeng_socialize_action_like" style="@style/umeng_socialize_action_bar_item_im" />
+                <TextView android:textColor="#ff646464" android:id="@id/umeng_socialize_action_like_tv" android:layout_toRightOf="@id/umeng_socialize_like_icon" style="@style/umeng_socialize_action_bar_item_tv" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:id="@id/umeng_socialize_like_bt_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_width="12.0dip" android:layout_height="12.0dip" style="?android:attr/progressBarStyleSmall" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/umeng_socialize_share_bt" style="@style/umeng_socialize_action_bar_itemlayout">
+            <ImageView android:id="@id/umeng_socialize_action_share_im" android:src="@drawable/umeng_socialize_action_share_icon" android:layout_centerHorizontal="true" style="@style/umeng_socialize_action_bar_item_im" />
+            <TextView android:textColor="#ff646464" android:id="@id/umeng_socialize_action_share_tv" android:visibility="gone" android:layout_toRightOf="@id/umeng_socialize_action_share_im" style="@style/umeng_socialize_action_bar_item_tv" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/umeng_socialize_user_center_bt" style="@style/umeng_socialize_action_bar_itemlayout">
+            <ImageView android:id="@id/umeng_socialize_action_user_center_im" android:src="@drawable/umeng_socialize_action_personal_icon" android:layout_centerHorizontal="true" style="@style/umeng_socialize_action_bar_item_im" />
+            <TextView android:textColor="#ff646464" android:id="@id/umeng_socialize_action_user_center_tv" android:visibility="gone" android:layout_toRightOf="@id/umeng_socialize_action_user_center_im" style="@style/umeng_socialize_action_bar_item_tv" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/umeng_socialize_comment_bt" android:paddingLeft="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_toLeftOf="@id/umeng_socialize_funcation_area" style="@style/umeng_socialize_action_bar_itemlayout">
+        <ImageView android:id="@id/umeng_socialize_action_pv_im" android:src="@drawable/umeng_socialize_pv" style="@style/umeng_socialize_action_bar_item_im" />
+        <TextView android:id="@id/umeng_socialize_action_pv_tv" android:layout_toRightOf="@id/umeng_socialize_action_pv_im" style="@style/umeng_socialize_action_bar_item_tv" />
+    </RelativeLayout>
+</RelativeLayout>

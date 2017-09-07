@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/title_panel" android:background="@color/blue" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="60.0dip" android:text="@string/app_space" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/btn_setting" android:background="@color/blue" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/btn_setting_icon" android:background="@color/trans" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/button_setting" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <EditText android:textSize="14.0sp" android:id="@id/searchInput" android:background="@drawable/login_kuang" android:layout_width="0.0dip" android:layout_height="30.0dip" android:hint="@string/search_page" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/searchButton" android:background="@drawable/btn_search_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:baselineAligned="false" android:layout_weight="1.0">
+        <TableLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:stretchColumns="1" android:layout_weight="1.0">
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton1" android:background="@color/color1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_column="1" android:layout_span="2" android:text="@string/search_type1" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton2" android:background="@color/color2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_column="1" android:text="@string/search_type2" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton3" android:background="@color/color3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_column="1" android:text="@string/search_type3" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton4" android:background="@color/color4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_column="1" android:layout_span="2" android:text="@string/search_type4" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton5" android:background="@color/color5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_column="1" android:text="@string/search_type5" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton6" android:background="@color/color6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_column="1" android:text="@string/search_type6" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton7" android:background="@color/color7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:layout_span="2" android:text="@string/search_type7" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:stretchColumns="1" android:layout_weight="1.0">
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton8" android:background="@color/color8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_column="1" android:layout_span="2" android:text="@string/search_type8" />
+            </TableRow>
+            <TableRow>
+                <ImageButton android:id="@id/seachbutton11" android:background="@color/color11" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="0.0dip" android:layout_marginBottom="10.0dip" android:layout_span="1" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton9" android:background="@color/color9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="10.0dip" android:layout_column="1" android:layout_span="1" android:text="@string/search_type9" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/seachbutton10" android:background="@color/color10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:layout_span="2" android:text="@string/search_type10" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <include android:id="@id/bottomBar" layout="@layout/layout_menutab" />
+</LinearLayout>
